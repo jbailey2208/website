@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 220" width="600" height="220">
+  <defs>
+    <style>
+      .firm-name { font-family: 'Georgia', 'Times New Roman', serif; }
+      .tagline { font-family: 'Georgia', 'Times New Roman', serif; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="600" height="220" fill="#0B1F3A" rx="4"/>
+
+  <!-- Gold accent line top -->
+  <rect x="0" y="0" width="600" height="4" fill="#C9A84C" rx="2"/>
+  <!-- Gold accent line bottom -->
+  <rect x="0" y="216" width="600" height="4" fill="#C9A84C" rx="2"/>
+
+  <!-- Chess King Icon -->
+  <g transform="translate(60, 28)" fill="#C9A84C">
+    <rect x="44" y="2" width="8" height="24" rx="2"/>
+    <rect x="30" y="9" width="36" height="8" rx="2"/>
+    <circle cx="48" cy="36" r="11"/>
+    <rect x="41" y="45" width="14" height="7" rx="2"/>
+    <path d="M32 52 L64 52 L82 100 L14 100 Z"/>
+    <rect x="10" y="98" width="76" height="11" rx="3"/>
+    <rect x="4" y="107" width="88" height="9" rx="3"/>
+  </g>
+
+  <!-- Vertical divider -->
+  <rect x="168" y="40" width="1.5" height="120" fill="#C9A84C" opacity="0.5"/>
+
+  <!-- Firm Name - "THE" -->
+  <text x="198" y="82" class="firm-name"
+    font-size="13"
+    font-weight="400"
+    fill="#C9A84C"
+    letter-spacing="6">THE</text>
+
+  <!-- Firm Name - "JANSON BAILEY" -->
+  <text x="195" y="122" class="firm-name"
+    font-size="34"
+    font-weight="700"
+    fill="#FFFFFF"
+    letter-spacing="2">JANSON BAILEY</text>
+
+  <!-- Firm Name - "LAW FIRM" -->
+  <text x="198" y="158" class="firm-name"
+    font-size="14"
+    font-weight="400"
+    fill="#C9A84C"
+    letter-spacing="9">LAW FIRM</text>
+
+  <!-- Decorative thin line under LAW FIRM -->
+  <rect x="198" y="158" width="370" height="1" fill="#C9A84C" opacity="0.4"/>
+
+  <!-- Tagline - "TRIAL LAWYERS" -->
+  <text x="198" y="178" class="tagline"
+    font-size="11"
+    font-weight="400"
+    fill="#FFFFFF"
+    letter-spacing="5"
+    font-style="italic">Trial Lawyers</text>
+</svg>
